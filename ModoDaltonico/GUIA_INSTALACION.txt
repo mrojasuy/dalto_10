@@ -1,0 +1,116 @@
+=====================================
+GUIA DE INSTALACION Y USO
+Plugin "Modo Daltonico" para MantisBT
+=====================================
+
+--- REQUISITOS ---
+
+- MantisBT 2.0 o superior
+- Navegadores compatibles: Google Chrome, Safari y Microsoft Edge (versiones recientes)
+
+--- INSTALACION ---
+
+1. Copiar la carpeta "ModoDaltonico" dentro del directorio /plugins/ de su instalacion de MantisBT.
+   Ruta final: /plugins/ModoDaltonico/
+
+2. Iniciar sesion como administrador en MantisBT.
+
+3. Ir a: Administracion > Complementos (Administration > Manage Plugins).
+
+4. Localizar "Modo Daltonico" en la lista de plugins disponibles.
+
+5. Hacer clic en "Instalar" (Install).
+
+--- CONFIGURACION ---
+
+1. Una vez instalado, el plugin aparece en la lista de "Plugins instalados".
+
+2. Hacer clic en el nombre del plugin "Modo Daltonico" para acceder a la pagina de configuracion.
+
+3. Opciones disponibles:
+   - Activacion por defecto: Activar o Desactivar el plugin globalmente.
+   - Tipo de contraste: Seleccionar entre Protanopia, Deuteranopia o Tritanopia.
+
+4. Hacer clic en "Guardar" para aplicar los cambios.
+
+--- USO ---
+
+1. Boton flotante:
+   - En la esquina inferior derecha de la pantalla aparece un boton flotante con el icono de un ojo.
+   - Hacer clic para activar o desactivar el modo daltonico.
+   - Al activar, se muestran tres botones para elegir el tipo de contraste:
+     * Protanopia (no ve el rojo)
+     * Deuteranopia (no ve el verde)
+     * Tritanopia (no ve el azul)
+
+2. Indicador de accesibilidad:
+   - Cuando el modo esta activo, un badge en la esquina superior derecha indica "El modo daltonico esta activo".
+
+3. Persistencia:
+   - La configuracion visual se guarda en el navegador (localStorage).
+   - Al abrir nuevas pestanas o sesiones, el modo se mantiene activo segun la ultima configuracion.
+
+--- NOTAS ---
+
+- El plugin aplica filtros SVG sobre la pagina completa, sin modificar directamente los colores de los elementos.
+- Es compatible con otros plugins y temas de MantisBT.
+- No requiere un tema base especifico.
+
+
+=====================================
+INSTALLATION AND USAGE GUIDE
+"Colorblind Mode" Plugin for MantisBT
+=====================================
+
+--- REQUIREMENTS ---
+
+- MantisBT 2.0 or higher
+- Supported browsers: Google Chrome, Safari and Microsoft Edge (latest versions)
+
+--- INSTALLATION ---
+
+1. Copy the "ModoDaltonico" folder into the /plugins/ directory of your MantisBT installation.
+   Final path: /plugins/ModoDaltonico/
+
+2. Log in as administrator in MantisBT.
+
+3. Go to: Administration > Manage Plugins.
+
+4. Locate "Colorblind Mode" in the list of available plugins.
+
+5. Click "Install".
+
+--- CONFIGURATION ---
+
+1. Once installed, the plugin appears in the "Installed Plugins" list.
+
+2. Click the plugin name "Colorblind Mode" to access the configuration page.
+
+3. Available options:
+   - Default Activation: Enable or Disable the plugin globally.
+   - Contrast Type: Choose between Protanopia, Deuteranopia or Tritanopia.
+
+4. Click "Save" to apply changes.
+
+--- USAGE ---
+
+1. Floating button:
+   - A floating button with an eye icon appears in the bottom-right corner of the screen.
+   - Click to toggle colorblind mode on or off.
+   - When active, three buttons appear to choose the contrast type:
+     * Protanopia (no red)
+     * Deuteranopia (no green)
+     * Tritanopia (no blue)
+
+2. Accessibility indicator:
+   - When the mode is active, a badge in the top-right corner shows "Colorblind mode is active".
+
+3. Persistence:
+   - Visual settings are saved in the browser (localStorage).
+   - When opening new tabs or sessions, the mode remains active according to the last configuration.
+
+--- NOTES ---
+
+- The plugin applies SVG filters over the entire page without directly modifying element colors.
+- It is compatible with other MantisBT plugins and themes.
+- No specific base theme is required.
